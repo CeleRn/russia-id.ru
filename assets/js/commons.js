@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\"use strick\";\n\n__webpack_require__(/*! ./styles/main.scss */ \"./styles/main.scss\"); // Изображения\n\n\n__webpack_require__(/*! ./images/home-bg.jpg */ \"./images/home-bg.jpg\"); /////////////////////////////////\n// Загрузка иконок для спрайта //\n/////////////////////////////////\n\n\n__webpack_require__(/*! ./icons/close.svg */ \"./icons/close.svg\");\n\n__webpack_require__(/*! ./icons/home.svg */ \"./icons/home.svg\");\n\n__webpack_require__(/*! ./icons/mail.svg */ \"./icons/mail.svg\");\n\n__webpack_require__(/*! ./icons/menu.svg */ \"./icons/menu.svg\");\n\n__webpack_require__(/*! ./icons/mobile.svg */ \"./icons/mobile.svg\");\n\n__webpack_require__(/*! ./icons/phone.svg */ \"./icons/phone.svg\");\n\n__webpack_require__(/*! ./icons/place.svg */ \"./icons/place.svg\");\n\n__webpack_require__(/*! ./icons/search.svg */ \"./icons/search.svg\");\n\n//# sourceURL=webpack:///./commons.js?");
+eval("\"use strick\";\n\n__webpack_require__(/*! ./styles/main.scss */ \"./styles/main.scss\"); // Изображения\n\n\n__webpack_require__(/*! ./images/home-bg.jpg */ \"./images/home-bg.jpg\"); /////////////////////////////////\n// Загрузка иконок для спрайта //\n/////////////////////////////////\n\n\n__webpack_require__(/*! ./icons/close.svg */ \"./icons/close.svg\");\n\n__webpack_require__(/*! ./icons/home.svg */ \"./icons/home.svg\");\n\n__webpack_require__(/*! ./icons/mail.svg */ \"./icons/mail.svg\");\n\n__webpack_require__(/*! ./icons/menu.svg */ \"./icons/menu.svg\");\n\n__webpack_require__(/*! ./icons/mobile.svg */ \"./icons/mobile.svg\");\n\n__webpack_require__(/*! ./icons/phone.svg */ \"./icons/phone.svg\");\n\n__webpack_require__(/*! ./icons/place.svg */ \"./icons/place.svg\");\n\n__webpack_require__(/*! ./icons/search.svg */ \"./icons/search.svg\");\n\n__webpack_require__(/*! ./icons/full-stack.svg */ \"./icons/full-stack.svg\");\n\n__webpack_require__(/*! ./icons/rus-price.svg */ \"./icons/rus-price.svg\");\n\n__webpack_require__(/*! ./icons/expo.svg */ \"./icons/expo.svg\");\n\n//# sourceURL=webpack:///./commons.js?");
 
 /***/ }),
 
@@ -106,6 +106,30 @@ eval("\"use strick\";\n\n__webpack_require__(/*! ./styles/main.scss */ \"./style
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"close-usage\",\n      viewBox: \"0 0 24 24\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#close-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/close.svg?");
+
+/***/ }),
+
+/***/ "./icons/expo.svg":
+/*!************************!*\
+  !*** ./icons/expo.svg ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"expo-usage\",\n      viewBox: \"0 0 1.619 1.626\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#expo-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/expo.svg?");
+
+/***/ }),
+
+/***/ "./icons/full-stack.svg":
+/*!******************************!*\
+  !*** ./icons/full-stack.svg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"full-stack-usage\",\n      viewBox: \"0 0 2.73 2.73\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#full-stack-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/full-stack.svg?");
 
 /***/ }),
 
@@ -178,6 +202,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"place-usage\",\n      viewBox: \"0 0 24 24\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#place-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/place.svg?");
+
+/***/ }),
+
+/***/ "./icons/rus-price.svg":
+/*!*****************************!*\
+  !*** ./icons/rus-price.svg ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"rus-price-usage\",\n      viewBox: \"0 0 2.221 2.177\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#rus-price-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/rus-price.svg?");
 
 /***/ }),
 
