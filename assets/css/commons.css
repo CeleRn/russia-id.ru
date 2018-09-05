@@ -6502,7 +6502,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; }
+  align-items: center; }
   .advantage__icon {
     height: 70px;
     width: 70px;
@@ -6512,12 +6512,21 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: 400;
     font-size: 22px;
     color: #333;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .advantage__text {
     color: #666666;
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300; }
+  .advantage__link {
+    color: #666666;
+    display: block;
+    border: 1px solid #666666;
+    padding: 5px 15px; }
+    .advantage__link:hover, .advantage__link:focus {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #666666; }
 
 .call-to-action {
   background-color: #FF5F52;
@@ -6551,6 +6560,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 32px; }
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   min-height: 350px; }
 

@@ -213,7 +213,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"rus-price-usage\",\n      viewBox: \"0 0 2.221 2.177\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#rus-price-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/rus-price.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n      id: \"rus-price-usage\",\n      viewBox: \"0 0 2.025 1.985\",\n      url: __webpack_require__.p + \"icons/icons-sprite.svg#rus-price-usage\",\n      toString: function () {\n        return this.url;\n      }\n    });\n\n//# sourceURL=webpack:///./icons/rus-price.svg?");
 
 /***/ }),
 
