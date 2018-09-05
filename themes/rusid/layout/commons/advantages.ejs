@@ -1,0 +1,47 @@
+<%
+var advantages = [
+    {
+        "icon": "full-stack",
+        "title": "Full stack",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed enim a mi sodales imperdiet sit amet a orci. Nunc luctus diam eget leo ultricies viverra. Nulla facilisi. Cras bibendum scelerisque est, non tempor augue facilisis ut. Integer mollis auctor ultricies. Nulla fringilla pulvinar convallis.",
+        "link": {
+            "name": "All services",
+            "url": "#"
+        }
+    },
+    {
+        "icon": "rus-price",
+        "title": "Russian price",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed enim a mi sodales imperdiet sit amet a orci. Nunc luctus diam eget leo ultricies viverra. Nulla facilisi. Cras bibendum scelerisque est, non tempor augue facilisis ut. Integer mollis auctor ultricies. Nulla fringilla pulvinar convallis.",
+        "link": {
+            "name": "Price",
+            "url": "#"
+        }
+    },
+    {
+        "icon": "expo",
+        "title": "Great experience",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed enim a mi sodales imperdiet sit amet a orci. Nunc luctus diam eget leo ultricies viverra. Nulla facilisi. Cras bibendum scelerisque est, non tempor augue facilisis ut. Integer mollis auctor ultricies. Nulla fringilla pulvinar convallis.",
+        "link": {
+            "name": "Our team",
+            "url": "#"
+        }
+    }    
+];
+%>
+
+<div class="advantages">
+    <div class="container">
+        <% for (let index in advantages) { 
+            let advantage = advantages[index]; %>
+            <div class="advantages__item advantage">
+                <%- partial('commons/svg-sprite-element', {icon: advantage.icon, cssSelector: "advantage__icon"}) %>
+                <h3 class="advantage__title"><%= advantage.title %></h3>
+                <div class="advantage__text">
+                    <p><%= advantage.text %></p>
+                </div>
+                <a href="<%= advantage.link.url %>" class="advantage__link"><%= advantage.link.name %></a>
+            </div>
+        <% } %>
+    </div>
+</div>

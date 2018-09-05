@@ -3,20 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Russia in details
+subtitle: consulting team
 description:
 keywords:
-author: John Doe
-language:
-timezone:
+author: CeleRn
+language: 
+  - en
+  - ru
+timezone: Europe/Moscow
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://localhost:4000
 root: /
-permalink: :year/:month/:day/:title/
+permalink: /:title.html
 permalink_defaults:
+  lang: en
 
 # Directory
 source_dir: source
@@ -43,6 +46,19 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+
+
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
+
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -78,7 +94,9 @@ theme: rusid
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:CeleRn/russia-id.ru.git
+  branch: html
 
 browsersync:
   logLevel: "warn"

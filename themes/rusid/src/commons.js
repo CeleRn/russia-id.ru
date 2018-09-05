@@ -19,3 +19,6 @@ require('./icons/mobile.svg');
 require('./icons/phone.svg');
 require('./icons/place.svg');
 require('./icons/search.svg');
+require('./icons/full-stack.svg');
+require('./icons/rus-price.svg');
+require('./icons/expo.svg');
